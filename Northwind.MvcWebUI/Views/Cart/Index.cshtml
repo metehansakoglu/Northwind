@@ -1,0 +1,39 @@
+﻿@model Northwind.Entities.Cart
+
+@{
+    ViewBag.Title = "title";
+    Layout = "../Shared/_Layout.cshtml";
+}
+
+<h2>Products in the cart</h2>
+
+<table>
+    <tr>
+        <td>Product Name</td>
+        <td>Unit Price</td>
+        <td>Quantity</td>
+        <td>Total</td>
+        <td></td>
+    </tr>
+    @foreach (var line in Model.Lines)
+    {
+        <tr>
+            <td>@line.Product.ProductName</td>
+            <td>@line.Product.UnitPrice.ToString("c")</td>
+            <td>@line.Quantity</td>
+            <td>@((line.Quantity*line.Product.UnitPrice).ToString("c"))</td>
+            <td>
+                @using (Html.BeginForm("RemoveFromCart","Cart"))
+                {
+                    @Html.Hidden("productId",line.Product.ProductID)
+                    <input type="submit" value="Remove from cart" />
+                }
+                
+            </td>
+        </tr>
+    }
+</table>
+<p align="center">
+    @Html.ActionLink("Checkout Now","Checkout")
+
+</p>

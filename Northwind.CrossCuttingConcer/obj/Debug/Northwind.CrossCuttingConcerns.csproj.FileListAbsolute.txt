@@ -1,0 +1,12 @@
+C:\Users\Metehan\source\repos\Northwind\Northwind.CrossCuttingConcer\bin\Debug\Northwind.CrossCuttingConcer.dll.config
+C:\Users\Metehan\source\repos\Northwind\Northwind.CrossCuttingConcer\bin\Debug\Northwind.CrossCuttingConcer.dll
+C:\Users\Metehan\source\repos\Northwind\Northwind.CrossCuttingConcer\bin\Debug\Northwind.CrossCuttingConcer.pdb
+C:\Users\Metehan\source\repos\Northwind\Northwind.CrossCuttingConcer\bin\Debug\Ninject.dll
+C:\Users\Metehan\source\repos\Northwind\Northwind.CrossCuttingConcer\bin\Debug\Ninject.Extensions.Interception.dll
+C:\Users\Metehan\source\repos\Northwind\Northwind.CrossCuttingConcer\bin\Debug\Ninject.xml
+C:\Users\Metehan\source\repos\Northwind\Northwind.CrossCuttingConcer\bin\Debug\Ninject.Extensions.Interception.xml
+C:\Users\Metehan\source\repos\Northwind\Northwind.CrossCuttingConcer\obj\Debug\Northwind.CrossCuttingConcerns.csproj.AssemblyReference.cache
+C:\Users\Metehan\source\repos\Northwind\Northwind.CrossCuttingConcer\obj\Debug\Northwind.CrossCuttingConcerns.csproj.CoreCompileInputs.cache
+C:\Users\Metehan\source\repos\Northwind\Northwind.CrossCuttingConcer\obj\Debug\Northwind.CrossCuttingConcerns.csproj.CopyComplete
+C:\Users\Metehan\source\repos\Northwind\Northwind.CrossCuttingConcer\obj\Debug\Northwind.CrossCuttingConcer.dll
+C:\Users\Metehan\source\repos\Northwind\Northwind.CrossCuttingConcer\obj\Debug\Northwind.CrossCuttingConcer.pdb

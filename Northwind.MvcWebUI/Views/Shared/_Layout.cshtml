@@ -1,0 +1,57 @@
+﻿@using Northwind.Entities
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <
+    <meta name"viewport" content="width=device-width" />
+    <title>Northwind</title>
+
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <style>
+        *{
+            margin:0;}
+
+        .container{
+            display: grid;
+            grid-template-columns: 20% 80% 80%;
+            grid-template-rows: 150px 2000px 300px ;
+      
+
+      
+        }
+        .container>div{ 
+       
+       
+        }
+      
+        .box1{background-color: aquamarine; font-size: 30px; text-align: center;
+            grid-column-end:span 3; }
+        .box2{ background-color: grey; font-size: 25px; background-color: wheat}
+        .box3{ font-size: 20px; background-color: aqua}
+    </style>
+
+
+</head>
+<body>
+<div class="container">
+    @{Html.RenderAction("CartSummary","Cart");}
+    <div class="box1"> Buraya başlık</div>
+    <div class="box2">
+        @{
+            Html.RenderAction("List", "Category");
+        }
+    </div>
+    <div class="box3">
+    
+        @RenderBody()  <br/>
+        
+        
+    </div>
+</div>
+   
+</body>
+</html>
+

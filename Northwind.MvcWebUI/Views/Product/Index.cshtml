@@ -1,0 +1,36 @@
+﻿@model Northwind.MvcWebUI.Models.ProductViewModel
+
+
+@{
+    Layout = "../Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<
+<div>
+    @foreach (var product in Model.Products)
+    {
+        
+        <div class="box3">
+
+            @product.ProductName
+            <br/>
+            @product.ProductID
+            <br/>
+            @product.UnitPrice
+            <br/>
+            <br/>
+
+        </div>
+        using (Html.BeginForm("AddToCard", "Cart"))
+        {
+            @Html.Hidden("productId",product.ProductID)
+           
+            <input type="submit" value="Add to cart"/>
+        }
+        
+    }
+    @Html.Pager(Model.PagingInfo);
+</div>
+
